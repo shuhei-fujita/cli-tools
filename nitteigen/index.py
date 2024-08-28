@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 
 import click
+import datetime
 import jpholiday
 import pyperclip
-from constants import DEFAULT_START_TIME, DEFAULT_END_TIME, WEEKDAY_JP
+from constants import DEFAULT_START_TIME, DEFAULT_END_TIME, WEEKDAY_JP, HOLIDAY_URL
 from utils.date_utils import parse_date, get_date_range
 from utils.log_utils import format_valid_date, format_excluded_date
 
@@ -37,7 +38,7 @@ def generate_schedule(start, end, start_time, end_time):
         print(valid_date)
 
     if excluded_dates:
-        print("\n除外された日付:\n" + REASON_URLS["weekend"])
+        print("\n除外された日付:\n" + HOLIDAY_URL)
         for excluded_date in excluded_dates:
             print(excluded_date)
 

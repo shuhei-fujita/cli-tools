@@ -23,3 +23,6 @@ LOGS = {
     "copy_to_clipboard_prompt": "\n結果をクリップボードにコピーしますか？ (y/n): ",
     "copy_success": "結果がクリップボードにコピーされました！"
 }
+
+# 祝日のURL
+HOLIDAY_URL = "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html"

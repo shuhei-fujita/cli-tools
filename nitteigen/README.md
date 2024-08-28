@@ -58,5 +58,10 @@ https://github.com/asweigart/pyperclip
 
 ```
 chmod +x index.py
+
+# シンボリックリンクを作成
 ln -s ~/git/samples/cli-tools/nitteigen/index.py ~/bin/nitteigen
+
+# シンボリックリンクを削除
+rm ~/bin/nitteigen
 ```
