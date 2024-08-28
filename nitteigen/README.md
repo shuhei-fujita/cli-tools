@@ -53,8 +53,10 @@ https://github.com/asweigart/pyperclip
 
 ## TODO
 
-- ~/binにシンボリックリンク
-- `dotfiles`ディレクトリで管理
+- [ ] シンボリックリンクの作成方法を追記
+- [ ] CLIツール用の管理ディレクトリを用意
+- [ ] Cloudfareにデプロイ
+- [ ] localStorageで設定情報を保存（ex. 日付のフォーマットをYYYY/MM/DDからYYYY年MM月DD日を選択できるなど
 
 ```
 chmod +x index.py
